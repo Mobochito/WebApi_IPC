@@ -1,0 +1,36 @@
+## --- Carpetas de Compilación y Salida (Build Outputs) ---
+# Ignorar las carpetas donde .NET compila los binarios ejecutables
+[Bb]in/
+[Oo]bj/
+
+## --- Archivos generados por publicación o empaquetado ---
+# Resultados de 'dotnet publish' y paquetes NuGet locales
+publish/
+*.nuget.dgspec.json
+*.nupkg
+
+## --- Datos Sensibles y Configuraciones Locales ---
+# Archivos de configuración para desarrollo local (pueden contener contraseñas/cadenas de conexión)
+appsettings.Development.json
+appsettings.Local.json
+*.user
+*.userosscache
+*.suo
+
+## --- Secretos del usuario (.NET User Secrets) ---
+# Si almacenas secretos localmente fuera del código fuente
+secrets.json
+
+## --- Herramientas e IDEs (VS Code / Visual Studio) ---
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- Logs y Diagnósticos ---
+*.log
+*.tlog
+*.log.*
